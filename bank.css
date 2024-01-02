@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400&display=swap');
+
+body {
+	background-color: blanchedalmond;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	gap: 30px;
+}
+input[type='text'] {
+	padding: 8px 10px;
+	border-radius: 20px;
+}
+input[type='text']::placeholder {
+	color: brown;
+	font-weight: 400;
+}
+button {
+	padding: 15px;
+	border-radius: 20px;
+	color: blue;
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+}
+
+button:hover {
+	background-color: dodgerblue;
+}
+#Balance,
+#low-balance {
+	color: blueviolet;
+	font-family: 'Inter', sans-serif;
+}
