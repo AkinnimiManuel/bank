@@ -13,7 +13,6 @@ class bank {
 	deposit(amount) {
 		const newAmount = (this.balance += amount);
 		balance.innerHTML = `You deposited: $${DepositInput.value}
-
      Your new Balance: $${newAmount}`;
 		LowBalance.innerHTML = '';
 	}
