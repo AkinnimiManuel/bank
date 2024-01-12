@@ -10,7 +10,8 @@ body {
 	text-align: center;
 }
 .heading {
-	color: white;
+	color: whitesmoke;
+	font-size: 20px;
 }
 .withdraw {
 	margin-bottom: 50px;
